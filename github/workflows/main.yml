@@ -13,6 +13,6 @@ FTP-Deploy-Action:
   name: FTP-Deploy-Action
   uses: Samkirkland/FTP-Deploy-Action@3.1.1
   with:
-  ftp-server:sftp://access852013897.webspace-data.io
-  ftp-username:u102982319
-  ftp-password:$ {{secrets.prod_FTP_PASSWORD}}
+  ftp-server: sftp://access852013897.webspace-data.io
+  ftp-username: u102982319
+  ftp-password: $ {{secrets.prod_FTP_PASSWORD}}
